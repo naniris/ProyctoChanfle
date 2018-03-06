@@ -12,10 +12,67 @@
     <script src="App_Themes/Tema1/Bootstrap/js/pooper.min.js"></script>
     <link href="App_Themes/Tema1/Bootstrap/css/bootstrap.css" rel="stylesheet" />
     <title>Login</title>
+    <style>
+         body{
+            background-image: url(http://localhost:58470/App_Themes/Tema1/Bootstrap/img/B65.jpg);
+            background-repeat:no-repeat;
+            background-size:100%;
+
+        }
+         h1 {
+            color: yellow;
+            font-family: Arial;
+            font-weight: bold;
+            background-color:sandybrown;
+            width:400px;
+            margin-left:30%;
+        }
+         h4{
+             color:greenyellow;
+            font-family: Arial;
+            font-weight: bold;
+            width:200px;
+            margin-left:30%;
+         }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div class="container">
+            <h1 class="text-center">Biblioteca Digital</h1>
+              <nav class="navbar navbar-toggleable bg-faded">
+                          
+               <ul class="navbar-nav ">
+                  
+
+                   <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarsdrop" data-toggle="dropdown">Clasificacion</a>
+                       <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Historia</a>
+                            <a href="#" class="dropdown-item">Ciencias</a>
+                            <a href="#" class="dropdown-item">Geografia</a>
+                            <a href="#" class="dropdown-item">Programacion</a>
+                            <a href="#" class="dropdown-item">Marketing</a>
+                            <a href="#" class="dropdown-item">Arte</a>
+                            <a href="#" class="dropdown-item">Musica</a>   
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                    <a href="#" class="nav-link">Contacto</a>
+                    </li>                                   
+                     <li class="nav-item">
+                    <a href="#" class="nav-link">Ayuda</a>
+                    </li>
+                </ul>
+                <div class="form-inline my-2 my-lg-0" style="margin-left:35%;">
+                  <input class="form-control mr-sm-2" type="text" placeholder="Buscar"/>
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                </div>   
+            </nav>
+            <nav class="navbar navbar-toggleable bg-warning">
+            </nav>
+            <br />
+            <br />
             <div class="row">
                 <div class="col-lg-3">
 
