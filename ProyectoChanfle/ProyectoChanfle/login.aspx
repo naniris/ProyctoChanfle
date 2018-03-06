@@ -11,6 +11,9 @@
     <script src="App_Themes/Tema1/Bootstrap/js/bootstrap.min.js"></script>
     <script src="App_Themes/Tema1/Bootstrap/js/pooper.min.js"></script>
     <link href="App_Themes/Tema1/Bootstrap/css/bootstrap.css" rel="stylesheet" />
+
+    <script src="https://use.fontawesome.com/025d1f53df.js"></script>
+
     <title>Login</title>
     <style>
         body{
@@ -25,18 +28,26 @@
             font-weight: bold;
             background-color:sandybrown;
             width:400px;
-            margin-left:30%;
-            
-            
+            margin-left:35%;
             
         }
+
+         h4{
+             color:greenyellow;
+            font-family: Arial;
+            font-weight: bold;
+            width:200px;
+            margin-left:30%;
+         }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="container">
-            <h1 class="text-center">Biblioteca Digital</h1>
+        
+         <div class="container-fluid">    
+       <h1 class="text-center">Biblioteca Digital</h1>
               <nav class="navbar navbar-toggleable bg-faded">
+                <img src="App_Themes/Tema1/Bootstrap/img/books.png" />
                           
                <ul class="navbar-nav ">
                   
@@ -72,7 +83,29 @@
                   <input class="form-control mr-sm-2" type="text" placeholder="Buscar"/>
                   <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
 
-                </div>
+                </div >
+
+                
+
+                <ul class="social-header list-inline-item text-sm-right">
+               <li class="list-inline-item">
+                <a href="#">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                      </span>
+                  </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-whatsapp fa-stack-1x fa-inverse"></i>
+                      </span>
+                  </a>
+              </li>
+            
+            </ul>
                  
             </nav>
 
@@ -80,6 +113,7 @@
             <nav class="navbar navbar-toggleable bg-warning">
 
             </nav>
+          
             <br />
             <br />
             <div class="row">
@@ -87,7 +121,7 @@
 
             </div>
             <div class="col-lg-6">
-                <h4>Iniciar secion</h4>
+                <h4>Iniciar sesión</h4>
                     	<form id="login-form" action="#" method="post" role="form" style="display: block;">
 									<div class="form-group">
 										<input type="text"  class="form-control" placeholder="Usuario" value="">
@@ -99,7 +133,7 @@
 									<div class="form-group">
 										<div class="row">
 											<div class="col-sm-6 col-sm-offset-3">
-												<button type="button" class="btn btn-outline-primary" data-toggle="collapse" data-target="#mostrar" value="Iniciar secion">Iniciar secion</button>
+												<button type="button" class="btn btn-outline-primary" data-toggle="collapse" data-target="#mostrar" value="Iniciar secion">Iniciar Sesión</button>
 											</div>
 										</div>
 									</div>

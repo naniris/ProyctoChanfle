@@ -43,7 +43,7 @@
          <div class="container-fluid">    
        <h1 class="text-center">Biblioteca Digital</h1>
               <nav class="navbar navbar-toggleable bg-faded">
-                 <img src="App_Themes/Tema1/Bootstrap/img/libros.png" />
+                 <img src="App_Themes/Tema1/Bootstrap/img/books.png" />
                           
                <ul class="navbar-nav ">
                   
