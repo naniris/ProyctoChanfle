@@ -18,75 +18,75 @@
 
     <style>
         body{
-            background-image:url(http://localhost:58470/App_Themes/Tema1/Bootstrap/img/Huetamo.png);
+            background-image: url(http://localhost:58470/App_Themes/Tema1/Bootstrap/img/B65.jpg);
             background-repeat:no-repeat;
             background-size:100%;
 
+        }
+        h1 {
+            color: yellow;
+            font-family: Arial;
+            font-weight: bold;
+            background-color:sandybrown;
+            width:400px;
+            margin-left:30%;
+            
+            
+            
         }
     </style>
     
     <form id="form1" runat="server">
         
-        <div class="container">    
-         <h1 class="text-center" style="color:gold">TecBook</h1>
+         <div class="container">    
+       <h1 class="text-center">Biblioteca Digital</h1>
               <nav class="navbar navbar-toggleable bg-faded">
                           
                <ul class="navbar-nav ">
-                  <li class="nav-item">
-                      <p class="text-gray-dark nav-link">Buscar en TecBook</p>
-                  </li>   
                   
-                  
-                  <li class="nav-item">
-                       <input type="text" class="form-control" placeholder="Buscar libro">
-                  </li>
-
-                   <li class="nav-item">
-                       <button type="button" class="btn btn-default">Buscar</button>
-                   </li>   
 
                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarsdrop" data-toggle="dropdown">Nosotros</a>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarsdrop" data-toggle="dropdown">Clasificacion</a>
                        <div class="dropdown-menu">
-                            <a href="#" class="dropdown-item">Quienes Somos?</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="mapa" data-toggle="dropdown">Ubicacion</a>
-                       <div class="dropdown-menu">
-                            <a href="#" class="dropdown-item">Mapa</a>
+                            <a href="#" class="dropdown-item">Historia</a>
+                            <a href="#" class="dropdown-item">Ciencias</a>
+                            <a href="#" class="dropdown-item">Geografia</a>
+                            <a href="#" class="dropdown-item">Programacion</a>
+                            <a href="#" class="dropdown-item">Marketing</a>
+                            <a href="#" class="dropdown-item">Arte</a>
+                            <a href="#" class="dropdown-item">Musica</a>
+                            
                         
+                            
                         </div>
                     </li>
 
+                   
                     <li class="nav-item">
                     <a href="#" class="nav-link">Contacto</a>
                     </li>
+
                                                          
                      <li class="nav-item">
-                         <a href="#" class="nav-link">Ingresa</a>
-                        
-                     </li>
-                    <li nav-item>
-                        <label class="nav-link">ó</label>
+                    <a href="#" class="nav-link">Ayuda</a>
                     </li>
-                    <li class="nav-item">
-                         <a href="#" class="nav-link">Resgístrate</a>
-                    </li>
-
 
                 </ul>
-                
+                <div class="form-inline my-2 my-lg-0" style="margin-left:35%;">
+                  <input class="form-control mr-sm-2" type="text" placeholder="Buscar"/>
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
 
+                </div>
+                 
             </nav>
 
             
-            <nav class="navbar navbar-toggleable bg-inverse">
+            <nav class="navbar navbar-toggleable bg-warning">
 
             </nav>
           
         </div>
+
 
         
     </form>
