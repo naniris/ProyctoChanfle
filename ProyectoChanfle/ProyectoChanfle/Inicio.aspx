@@ -83,7 +83,7 @@
 
                 
 
-              <ul class="social-header list-inline-item text-sm-right">
+                <ul class="social-header list-inline-item text-sm-right">
                <li class="list-inline-item">
                 <a href="#">
                     <span class="fa-stack fa-lg">
