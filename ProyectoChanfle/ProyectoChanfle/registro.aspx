@@ -81,16 +81,16 @@
                     <h4>Crear cuenta</h4>
                     	<form id="register-form" action="#" method="post" role="form" style="display: none;">
 									<div class="form-group">
-										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Usuario" value="">
+										<input type="text" class="form-control" placeholder="Usuario" >
 									</div>
 									<div class="form-group">
-										<input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Correo electronico" value="">
+										<input type="email" class="form-control" placeholder="Correo electronico" >
 									</div>
 									<div class="form-group">
-										<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Contraseña">
+										<input type="password"  class="form-control" placeholder="Contraseña">
 									</div>
 									<div class="form-group">
-										<input type="password" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirmar contraseña">
+										<input type="password"  class="form-control" placeholder="Confirmar contraseña">
 									</div>
 									<div class="form-group">
 										<div class="row">
