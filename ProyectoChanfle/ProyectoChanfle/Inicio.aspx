@@ -21,8 +21,10 @@
     <style>
         body{
             background-image: url(http://localhost:58470/App_Themes/Tema1/Bootstrap/img/B65.jpg);
-            background-repeat:no-repeat;
-            background-size:100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
 
         }
         h1 {
@@ -32,10 +34,19 @@
             background-color:sandybrown;
             width:400px;
             margin-left:35%;
-            
-            
-            
         }
+
+      p{
+         color:red;
+         font-size:x-large;
+      }
+
+     .carousel-inner img {
+        width: 50%;
+        height: 50%;
+     }
+        
+
     </style>
     
     <form id="form1" runat="server">
@@ -109,8 +120,50 @@
             <nav class="navbar navbar-toggleable bg-warning">
 
             </nav>
-          
+             <br />
+             <br />
+   <div id="demo" class="carousel slide" data-ride="carousel" >
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+          </ul>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="App_Themes/Tema1/Bootstrap/img/user5.jpg" class="rounded mx-auto d-block"/>
+              <div class="carousel-caption">
+                <p>Libros de programación</p>
+              </div>   
+            </div>
+            <div class="carousel-item">
+                <img src="App_Themes/Tema1/Bootstrap/img/user7.jpg" class="rounded mx-auto d-block"/>
+              <div class="carousel-caption">
+                <p>Marketing digital</p>
+              </div>   
+            </div>
+            <div class="carousel-item">
+                <img src="App_Themes/Tema1/Bootstrap/img/user6.jpg" class="rounded mx-auto d-block"/>
+              <div class="carousel-caption">
+                <p>El libro de los master</p>
+              </div>   
+            </div>
+            <div class="carousel-item">
+                <img src="App_Themes/Tema1/Bootstrap/img/user8.jpg" class="rounded mx-auto d-block"/>
+              <div class="carousel-caption">
+                <p>La historia de la musica</p>
+              </div>   
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
         </div>
+          
+ </div>
 
 
         

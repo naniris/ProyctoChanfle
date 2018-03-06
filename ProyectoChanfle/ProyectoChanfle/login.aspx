@@ -18,8 +18,10 @@
     <style>
         body{
             background-image: url(http://localhost:58470/App_Themes/Tema1/Bootstrap/img/B65.jpg);
-            background-repeat:no-repeat;
-            background-size:100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
 
         }
         h1 {
@@ -43,7 +45,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        
+      
          <div class="container-fluid">    
        <h1 class="text-center">Biblioteca Digital</h1>
               <nav class="navbar navbar-toggleable bg-faded">
@@ -62,9 +64,6 @@
                             <a href="#" class="dropdown-item">Marketing</a>
                             <a href="#" class="dropdown-item">Arte</a>
                             <a href="#" class="dropdown-item">Musica</a>
-                            
-                        
-                            
                         </div>
                     </li>
 

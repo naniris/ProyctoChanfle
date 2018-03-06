@@ -18,8 +18,10 @@
     <style>
          body{
             background-image: url(http://localhost:58470/App_Themes/Tema1/Bootstrap/img/B65.jpg);
-            background-repeat:no-repeat;
-            background-size:100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
 
         }
          h1 {
